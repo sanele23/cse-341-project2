@@ -1,0 +1,36 @@
+# get all contacts 
+GET http://localhost:3000/users
+
+### get contact by id 
+GET http://localhost:3000/users/65cbe3f3192210927072d949
+
+### create contact 
+POST http://localhost:3000/users HTTP/1.1 
+content-type: application/json
+
+{
+"firstName": "James", 
+"lastName": "Bond", 
+"username": "jbond@gmail.com",
+"email": "jbond@gmail.com", 
+"contactdetails": "0710781521", 
+"favoriteColor": "Black", 
+"birthday": "25/08/1960"
+}
+
+### PUT/UPDATE contact 
+PUT http://localhost:3000/users/65cbe4a9192210927072d94a 
+content-type: application/json
+
+{
+"firstName": "Sarah",
+ "lastName": "Birch",
+ "username": "sarahb@outlook.com",
+ "contactdetails": "0710781521",
+ "email": "test@gmail.com", 
+ "favoriteColor": "Black", 
+ "birthday": "12/12/00"
+} 
+
+### delete contact 
+DELETE http://localhost:3000/users/65c77f257fa8ce2dee90f949

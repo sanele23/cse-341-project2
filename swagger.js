@@ -4,8 +4,8 @@ const swaggerAutogen = require("swagger-autogen");
 // cretae a document info
 const doc = {
   info: {
-    title: "Users Api",
-    description: "Users Api",
+    title: "Username Api",
+    description: "Username Api",
   },
   host: "localhost:3000",
   schemes: ["http", "https"],
