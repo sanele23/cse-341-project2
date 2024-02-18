@@ -5,10 +5,10 @@ const swaggerAutogen = require("swagger-autogen");
 const doc = {
   info: {
     title: "Username Api",
-    description: "Username Api",
+    description: "Project Two - Username Api",
   },
-  host: "localhost:3000",
-  schemes: ["http", "https"],
+  host: "https://second-project-u3l2.onrender.com",
+  schemes: ["https", "http"],
 };
 
 const outputFile = "./swagger.json";

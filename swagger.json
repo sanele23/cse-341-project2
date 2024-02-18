@@ -2,13 +2,12 @@
   "swagger": "2.0",
   "info": {
     "title": "Username Api",
-    "description": "Username Api",
+    "description": "Project Two - Username Api",
     "version": "1.0.0"
   },
-  "host": "localhost:3000",
+  "host": "https://second-project-u3l2.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http",
     "https"
   ],
   "paths": {
