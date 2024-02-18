@@ -7,7 +7,7 @@ const ObjectId = require("mongodb").ObjectId;
 const getAll = async (req, res) => {
   try {
     // #swagger.tags=['Users']
-    const result = await mongodb.getDatabase().db().collection("users").find();
+    const result = await mongodb.getDatabase().db().collection("user_info").find();
     const users = await result.toArray();
 
     if (!Array.isArray(users)) {
