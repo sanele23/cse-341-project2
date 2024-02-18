@@ -5,7 +5,7 @@
     "description": "Project Two - Username Api",
     "version": "1.0.0"
   },
-  "host": "https://second-project-u3l2.onrender.com",
+  "host": "second-project-u3l2.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"
