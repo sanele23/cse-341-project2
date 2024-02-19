@@ -1,10 +1,9 @@
-const express = require("express");
-const bodyParser = require("body-parser");
-const mongodb = require("./data/database");
-const passport = require("passport");
-const session = require("express-session");
-const GitHubStrategy = require('passport-github2').Strategy
-const cors = require('cors');
+const mongodb = require('./data/database');
+const express = require('express');
+const bodyParser = require('body-parser');
+const passport = require('passport');
+const session = require('express-session');
+const GitHubStrategy = require('passport-github2').Strategy;
 
 
 const port = process.env.PORT || 3000;

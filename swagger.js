@@ -7,7 +7,7 @@ const doc = {
     title: "Username Api",
     description: "Project Two - Username Api",
   },
-  host: "second-project-u3l2.onrender.com",
+  host: "https://second-project-u3l2.onrender.com",
   schemes: ["https", "http"],
 };
 
